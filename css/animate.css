@@ -3419,7 +3419,12 @@ h2 {
   background-color: #ff6347;
   transition: all 0.2s ease;
 }
-
+.button a{
+  color: white;
+}
+.button a:hover{
+  color: white;
+}
 .button:active {
   transform: scale(0.96);
 }

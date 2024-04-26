@@ -3391,15 +3391,17 @@ body {
 .menu-item {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
   /* width: 30%; */
   /* overflow: hidden; */
   transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow:inset 4px 4px 8px #ff6347,inset -4px -4px 8px #ff6347;
+  margin:10px;
 }
 
 .menu-item:hover {
+  /* margin-top:20px; */
+  padding: 10px;
   box-shadow: 4px 4px 8px #ff6347, -4px -4px 8px #ff6347;
 }
 
@@ -3532,4 +3534,23 @@ li {
  height: 400px;
  width: 100%;
  object-fit: scale-down;
+}
+.size_img1{
+  height: 400px;
+  width: 100%;
+  object-fit: scale-down;
+  padding-right: 100px;
+ }
+ .size_img2{
+  
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  height:250px;
+  border-radius: 8px 8px 0px 0px;
+ }
+ img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 20%;
 }

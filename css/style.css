@@ -298,25 +298,25 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
-
-h2, .h2 {
   font-size: 2rem; }
 
-h3, .h3 {
-  font-size: 1.75rem; }
+h2, .h2 {
+  font-size: 1.8rem; }
 
-h4, .h4 {
+h3, .h3 {
   font-size: 1.5rem; }
 
-h5, .h5 {
+h4, .h4 {
   font-size: 1.25rem; }
 
-h6, .h6 {
+h5, .h5 {
   font-size: 1rem; }
 
+h6, .h6 {
+  font-size: 0.8rem; }
+
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300; }
 
 .display-1 {
@@ -8368,7 +8368,7 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  line-height: 1.5;
+  line-height: 1.2;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400; }
 
@@ -8739,10 +8739,10 @@ h1, h2, h3, h4, h5,
           color: rgba(255, 255, 255, 0.9); }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           color: #fff;
-          line-height: 1;
-          font-family: "Dancing Script", cursive;
-          font-size: 10vw;
-          font-weight: 400;
+          /* line-height: 1.2; */
+          font-family: 'Raleway', sans-serif;
+          font-size: 4.5rem;
+          font-weight: 700;
           margin-bottom: 40px; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             color: var(--red); }
@@ -10034,3 +10034,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    .v video {
+      border: 2px solid red;
+      margin: 5px;
+      width: 100%;
+    }

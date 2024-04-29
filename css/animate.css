@@ -3549,7 +3549,7 @@ li {
   height: 400px;
   width: 100%;
   object-fit: scale-down;
-  padding-right: 100px;
+  /* padding-right: 100px; */
  }
  .size_img2{
   

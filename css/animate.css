@@ -3404,6 +3404,16 @@ body {
   padding: 10px;
   box-shadow: 4px 4px 8px #ff6347, -4px -4px 8px #ff6347;
 }
+.menu-item1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  /* width: 30%; */
+  /* overflow: hidden; */
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin:10px;
+}
 
 h2 {
   font-size: 1.5em;
@@ -3554,3 +3564,8 @@ li {
   display: block;
   /* margin-top: 20%; */
 }
+.size_img3{
+ align-items: center;
+  padding-top: 20px;
+  
+ }

@@ -8360,7 +8360,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color:var(--red); }
+  color:white; }
   a:hover, a:focus {
     text-decoration: none;
     color: var(--red);
@@ -8741,7 +8741,7 @@ h1, h2, h3, h4, h5,
           color: #fff;
           /* line-height: 1.2; */
           font-family: 'Raleway', sans-serif;
-          font-size: 4.5rem;
+          font-size: 3.2rem;
           font-weight: 700;
           margin-bottom: 40px; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {

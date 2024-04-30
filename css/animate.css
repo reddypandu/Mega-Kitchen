@@ -3402,7 +3402,7 @@ body {
 .menu-item:hover {
   /* margin-top:20px; */
   padding: 10px;
-  box-shadow: 4px 4px 8px #ff6347, -4px -4px 8px #ff6347;
+  box-shadow: 4px 4px 8px #dda207, -4px -4px 8px #dda207;
 }
 .menu-item1 {
   background-color: #fff;
@@ -3413,6 +3413,38 @@ body {
   /* overflow: hidden; */
   transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   margin:10px;
+}
+.menu-item2 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  /* width: 30%; */
+  /* overflow: hidden; */
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin:10px;
+}
+
+.menu-item2:hover {
+  /* margin-top:20px; */
+  padding: 10px;
+  box-shadow: 4px 4px 8px green, -4px -4px 8px green;
+}
+.menu-item3 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  /* width: 30%; */
+  /* overflow: hidden; */
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin:10px;
+}
+
+.menu-item3:hover {
+  /* margin-top:20px; */
+  padding: 10px;
+  box-shadow: 4px 4px 8px #e7ba6b, -4px -4px 8px #e7ba6b;
 }
 
 h2 {
@@ -3429,6 +3461,36 @@ h2 {
   color: #fff;
   cursor: pointer;
   background-color: #ff6347;
+  transition: all 0.2s ease;
+}
+.button1 {
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff !important;
+  cursor: pointer;
+  background-color: green;
+  transition: all 0.2s ease;
+}
+.button2 {
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #dda207;
+  transition: all 0.2s ease;
+}
+.button3 {
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #f4ca2e;
   transition: all 0.2s ease;
 }
 .button a{
@@ -3541,15 +3603,16 @@ li {
   transform: translateY(0);
 } */
 .size_img{
- height: 400px;
+ height: auto;
  width: 100%;
  object-fit: scale-down;
+ /* padding-right: 100px; */
 }
 .size_img1{
   height: 400px;
   width: 100%;
   object-fit: scale-down;
-  /* padding-right: 100px; */
+  
  }
  .size_img2{
   

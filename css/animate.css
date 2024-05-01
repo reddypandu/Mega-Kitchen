@@ -3611,7 +3611,8 @@ li {
 .size_img1{
   height: 400px;
   width: 100%;
-  object-fit: scale-down;
+  
+
   
  }
  .size_img2{

@@ -520,6 +520,24 @@ pre {
   flex-grow: 1;
   min-width: 0;
   max-width: 100%; }
+  .whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 13px;
+    z-index: 999;
+  }
+  .whatsapp i {
+    font-size: 40px;
+    color: red;
+    background-color: #000;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 4px black;
+  }
+  .whatsapp:hover i {
+    color: #000;
+    background-color: red;
+  }
 
 .row-cols-1 > * {
   -webkit-box-flex: 0;
